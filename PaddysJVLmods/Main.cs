@@ -20,6 +20,7 @@ namespace PaddysJVLmods
 
         private void Awake()
         {
+            Conf.genSettings = base.Config;
             Hooks.Init();
         }
     }

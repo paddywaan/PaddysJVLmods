@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JotunnModStub", "JotunnModS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaddysJVLmods", "PaddysJVLmods\PaddysJVLmods.csproj", "{A95797AF-9493-4315-9A4D-8F79EFE7527E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CombatTweaks", "CombatTweaks\CombatTweaks.csproj", "{5CC16E97-B7AC-4156-B2C3-215DE3698851}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{A95797AF-9493-4315-9A4D-8F79EFE7527E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A95797AF-9493-4315-9A4D-8F79EFE7527E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A95797AF-9493-4315-9A4D-8F79EFE7527E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CC16E97-B7AC-4156-B2C3-215DE3698851}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CC16E97-B7AC-4156-B2C3-215DE3698851}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CC16E97-B7AC-4156-B2C3-215DE3698851}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CC16E97-B7AC-4156-B2C3-215DE3698851}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
