@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CombatTweaks", "CombatTweak
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ItemDropDecayConfig", "ItemDropDecayConfig\ItemDropDecayConfig.csproj", "{1EB53D5C-93AA-4E15-851C-C4DA8D632F80}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackingNotifications", "StackingNotifications\StackingNotifications.csproj", "{D45E86F6-ED8A-4C7D-A946-C3D72F05AEDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkillfulProgression", "SkillfulProgression\SkillfulProgression.csproj", "{A4633DFC-D6DB-4AD7-B1FB-2C0BA80A0CB5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{1EB53D5C-93AA-4E15-851C-C4DA8D632F80}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1EB53D5C-93AA-4E15-851C-C4DA8D632F80}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1EB53D5C-93AA-4E15-851C-C4DA8D632F80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D45E86F6-ED8A-4C7D-A946-C3D72F05AEDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D45E86F6-ED8A-4C7D-A946-C3D72F05AEDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D45E86F6-ED8A-4C7D-A946-C3D72F05AEDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D45E86F6-ED8A-4C7D-A946-C3D72F05AEDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4633DFC-D6DB-4AD7-B1FB-2C0BA80A0CB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4633DFC-D6DB-4AD7-B1FB-2C0BA80A0CB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4633DFC-D6DB-4AD7-B1FB-2C0BA80A0CB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4633DFC-D6DB-4AD7-B1FB-2C0BA80A0CB5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

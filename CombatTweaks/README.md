@@ -1,5 +1,5 @@
-﻿# JotunnModStub
-Upon building for release, this README.md is copied into the `Package` folder for thunderstore packaging. Remember to also edit the manifest.json and supply your own mod icon.
+﻿# ModName
+
 
 ## Installation (manual)
 
@@ -11,4 +11,5 @@ Upon building for release, this README.md is copied into the `Package` folder fo
 
 
 ## Known issues
-You can find the github at:
+
+If you happen to come across any problems or unexpected behaviour, please feel free to contact me on discord, or create an issue on github at: https://github.com/paddywaan/PaddysVHMods/issues
