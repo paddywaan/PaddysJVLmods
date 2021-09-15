@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaddysJVLmods", "PaddysJVLm
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CombatTweaks", "CombatTweaks\CombatTweaks.csproj", "{5CC16E97-B7AC-4156-B2C3-215DE3698851}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ItemDropDecayConfig", "ItemDropDecayConfig\ItemDropDecayConfig.csproj", "{1EB53D5C-93AA-4E15-851C-C4DA8D632F80}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{5CC16E97-B7AC-4156-B2C3-215DE3698851}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5CC16E97-B7AC-4156-B2C3-215DE3698851}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5CC16E97-B7AC-4156-B2C3-215DE3698851}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EB53D5C-93AA-4E15-851C-C4DA8D632F80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EB53D5C-93AA-4E15-851C-C4DA8D632F80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EB53D5C-93AA-4E15-851C-C4DA8D632F80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EB53D5C-93AA-4E15-851C-C4DA8D632F80}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

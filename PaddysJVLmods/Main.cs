@@ -14,9 +14,9 @@ namespace PaddysJVLmods
     [NetworkCompatibility(CompatibilityLevel.EveryoneMustHaveMod, VersionStrictness.Major)]
     internal class PaddysJVLmods : BaseUnityPlugin
     {
-        public const string PluginGUID = "com.jotunn.jotunnmodstub";
+        public const string PluginGUID = "com.paddy." + PluginName;
         public const string PluginName = "PaddysJVLmods";
-        public const string PluginVersion = "0.0.2";
+        public const string PluginVersion = "1.0.2";
 
         private void Awake()
         {
