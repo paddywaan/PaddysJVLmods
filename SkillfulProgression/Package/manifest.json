@@ -1,10 +1,11 @@
-﻿{
+{
   "name": "SkillfulProgression",
-  "description": "",
-  "version_number": "1.0.0",
-  "website_url": "",
+  "description": "Skillful Progression reworks the manner in which skill gain is attributed.",
+  "version_number": "1.0.2",
+  "website_url": "https://github.com/paddywaan/PaddysVHMods/tree/master/SkillfulProgression",
   "dependencies": [
     "denikson-BepInExPack_Valheim-5.4.601",
-    ""
+    "ValheimModding-HookGenPatcher-0.0.1",
+    "paddywan-StackingNotifications-1.0.0"
   ]
 }

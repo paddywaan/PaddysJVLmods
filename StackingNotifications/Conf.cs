@@ -14,7 +14,6 @@ namespace StackingNotifications
 
         static Conf()
         {
-            genSettings.Bind("SETTINGS", "NEW SETTING", "", "Does things");
         }
     }
 }

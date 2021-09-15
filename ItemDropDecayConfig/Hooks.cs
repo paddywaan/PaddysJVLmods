@@ -26,7 +26,7 @@ namespace ItemDropDecayConfig
                 zz => zz.MatchBgeUn(out _)
             ))
             {
-                c.Next.Next.Operand = Conf.DecayTimer.Value;
+                c.Next.Next.Operand = ItemDropDecayConfig.DecayTimer.Value;
             }
             else Jotunn.Logger.LogWarning($"Failed to patch ItemDropOnTimedDestruction.");
         }
