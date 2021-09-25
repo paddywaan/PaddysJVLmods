@@ -16,7 +16,7 @@ namespace ItemDropDecayConfig
     {
         public const string PluginGUID = "com.paddy." + PluginName;
         public const string PluginName = "ItemDropDecayConfig";
-        public const string PluginVersion = "0.0.1";
+        public const string PluginVersion = "1.0.2";
         public static ConfigEntry<double> DecayTimer;
 
         private void Awake()

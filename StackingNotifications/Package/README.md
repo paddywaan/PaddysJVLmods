@@ -1,4 +1,4 @@
-# Stacking Notifications
+﻿# Stacking Notifications
 Stacking Notifications provides a notification layer which facilitates timed persistence of multiple notifications.
 
 
@@ -11,9 +11,9 @@ Developers can include the binary as a reference, and may invoke a new notificat
 * Expiring notifications will fade to alpha
 
 ## Changelog
-v1.0.2 - Resolve MethodInaccessible
-
-v1.0.0 - Release
+* v1.0.3 - Converted to JVL, updated for H&H.
+* v1.0.2 - Resolve MethodInaccessible
+* v1.0.0 - Release
 
 ## Known issues
 

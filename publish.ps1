@@ -64,7 +64,8 @@ if ($Target.Equals("Debug")) {
 if($Target.Equals("Release")) {
     Write-Host "Packaging for ThunderStore..."
     $Package="Package"
-    $PackagePath=$ProjectPath+$Package
+    Write-Host $ProjectPath
+    $PackagePath=$ProjectPath+"\\"+$Package
 
     Write-Host "$PackagePath\$TargetAssembly"
     Copy-Item -Path "$TargetPath\$TargetAssembly" -Destination "$PackagePath\plugins\$TargetAssembly" -Force

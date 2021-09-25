@@ -1,4 +1,4 @@
-
+﻿
 # Paddys Mods
 
 A collection of quality of life improvements, which attempt to remove some of the tedium from this wonderful game, while attempting to maintain the core gameplay balance and behaviours.
@@ -19,6 +19,8 @@ Automatically converts localised messages to shouts
 
 
 ## Changelog
+* *v1.1.0* - Fixed outdated binaries nested inside release. Added corpse explosion delay configuration.
+* *v1.0.5* - Converted to JVL, updated for H&H
 * *v1.0.3* - Resolve MethodInaccessible
 * *v1.0.3* - Implemented custom filter list for auto pickups, configurable via .cfg
 * *v1.0.1* - implemented disabling of certain trash pickups, added toggle for public player position, and added auto-shout

@@ -15,7 +15,7 @@ namespace SkillfulProgression
     {
         public const string PluginGUID = "com.paddy." + PluginName;
         public const string PluginName = "SkillfulProgression";
-        public const string PluginVersion = "0.0.1";
+        public const string PluginVersion = "1.0.3";
 
         private void Awake()
         {

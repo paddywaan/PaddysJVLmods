@@ -18,6 +18,7 @@ namespace PaddysJVLmods
         internal static ConfigEntry<bool> TrashFilter;
         internal static ConfigEntry<bool> AutoShout;
         internal static ConfigEntry<string> TrashString;
+        internal static ConfigEntry<float> CorpseDelay;
         internal static List<string> FilterList;
 
         static Conf()
@@ -31,6 +32,7 @@ namespace PaddysJVLmods
             TrashFilter = genSettings.Bind("QoL", "TrashFilter", false, "Setting to true will filter item pickups, excluding the configured trash items.");
             TrashString = genSettings.Bind("QoL", "TrashString", "GreydwarfEye;Resin;GreylingTrophy;TrophyBoar;TrophyDeer",
                 "A semi-colon delimited list of pickup names which should be excluded from pickup. Set BepInEx.cfg `LogLevels = All`, or include `Debug` to output pickup item names to console.");
+            CorpseDelay = genSettings.Bind("QoL", "CorpseDelay", 5f, "The delay between a kill and the corpse exploding into components.");
             FormatTrashStrings();
         }
         private static void FormatTrashStrings()

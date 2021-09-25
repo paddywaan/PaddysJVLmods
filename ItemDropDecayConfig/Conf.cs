@@ -12,10 +12,12 @@ namespace ItemDropDecayConfig
     {
         public static ConfigFile genSettings;
         public static ConfigEntry<double> DecayTimer;
+        public static ConfigEntry<float> DecayTimerf;
 
         static Conf()
         {
             DecayTimer = genSettings.Bind("SETTINGS", "Decay Timer", 3600d, "Time in seconds before an item decays. Only affects drops outside of base (crafting station/fire) and player radius.");
+            DecayTimerf = genSettings.Bind("SETTINGS", "Decay Timer", 3600f, "Time in seconds before an item decays. Only affects drops outside of base (crafting station/fire) and player radius.");
         }
     }
 }

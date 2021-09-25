@@ -25,15 +25,16 @@ namespace PaddysJVLmods
             On.ZSteamSocket.OnNewConnection += ZSteamSocket_OnNewConnection;
 #if DEBUG
             On.Player.GetRunSpeedFactor += Player_GetRunSpeedFactor;
-#endif
+
             On.OfferingBowl.Awake += OfferingBowl_Awake;
+#endif
         }
 
         private static void OfferingBowl_Awake(On.OfferingBowl.orig_Awake orig, OfferingBowl self)
         {
-            Jotunn.Logger.LogWarning($"Prefix OfferingBowl_Awake ran on {self.m_name}");
+            //Jotunn.Logger.LogWarning($"Prefix OfferingBowl_Awake ran on {self.m_name}");
             orig(self);
-            Jotunn.Logger.LogWarning($"Postfix OfferingBowl_Awake ran on {self.m_name}");
+            //Jotunn.Logger.LogWarning($"Postfix OfferingBowl_Awake ran on {self.m_name}");
         }
 
         private static float Player_GetRunSpeedFactor(On.Player.orig_GetRunSpeedFactor orig, Player self)
@@ -45,13 +46,13 @@ namespace PaddysJVLmods
             return orig(self);
         }
 
-        private static float Humanoid_GetAttackDrawPercentage(On.Humanoid.orig_GetAttackDrawPercentage orig, Humanoid self)
-        {
-            var oself = self.m_attackDrawTime;
-            var num = orig(self);
-            Jotunn.Logger.LogDebug($"{num}");
-            return num;
-        }
+        //private static float Humanoid_GetAttackDrawPercentage(On.Humanoid.orig_GetAttackDrawPercentage orig, Humanoid self)
+        //{
+        //    //var oself = self.m_attackDrawTime;
+        //    var num = orig(self);
+        //    Jotunn.Logger.LogDebug($"{num}");
+        //    return num;
+        //}
 
         private static void ZSteamSocket_OnNewConnection(On.ZSteamSocket.orig_OnNewConnection orig, ZSteamSocket self, HSteamNetConnection con)
         {

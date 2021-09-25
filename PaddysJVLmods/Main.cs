@@ -12,12 +12,12 @@ namespace PaddysJVLmods
 {
     [BepInPlugin(PluginGUID, PluginName, PluginVersion)]
     [BepInDependency(Jotunn.Main.ModGuid)]
-    [NetworkCompatibility(CompatibilityLevel.EveryoneMustHaveMod, VersionStrictness.Major)]
+    [NetworkCompatibility(CompatibilityLevel.NoNeedForSync, VersionStrictness.Minor)]
     internal class PaddysJVLmods : BaseUnityPlugin
     {
         public const string PluginGUID = "com.paddy." + PluginName;
         public const string PluginName = "PaddysJVLmods";
-        public const string PluginVersion = "1.0.2";
+        public const string PluginVersion = "1.2.0";
         public static ConfigFile _conf;
 
         private void Awake()

@@ -1,4 +1,4 @@
-# Skillful Progression
+﻿# Skillful Progression
 Skillful Progression reworks the manner in which skill gain is attributed. By introducing specific conditions during rare, skilled, or difficult events an increased XP incentive is provided to ensure that players are rewarded for their risk as they progress into "endgame" content.
 
 ## Installation (manual)
@@ -15,6 +15,8 @@ Skillful Progression reworks the manner in which skill gain is attributed. By in
 
 
 ## Changelog
+v1.0.3 - Converted to JVL, updated for H&H
+
 v1.0.1 - Resolve MethodInaccessible
 
 v1.0.0 - Released

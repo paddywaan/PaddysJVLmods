@@ -15,7 +15,7 @@ namespace StackingNotifications
     {
         public const string PluginGUID = "com.paddy." + PluginName;
         public const string PluginName = "StackingNotifications";
-        public const string PluginVersion = "1.0.1";
+        public const string PluginVersion = "1.0.3";
 
         private void Awake()
         {

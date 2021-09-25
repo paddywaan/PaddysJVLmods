@@ -1,10 +1,11 @@
 {
   "name": "StackingNotifications",
   "description": "Stacking Notifications provides a notification layer which facilitates timed persistence of multiple notifications.",
-  "version_number": "1.0.1",
+  "version_number": "1.0.3",
   "website_url": "https://github.com/paddywaan/PaddysVHMods/tree/master/StackingNotifications",
   "dependencies": [
     "denikson-BepInExPack_Valheim-5.4.601",
-    "ValheimModding-HookGenPatcher-0.0.1"
+    "ValheimModding-HookGenPatcher-0.0.1",
+    "ValheimModding-Jotunn-2.3.0"
   ]
 }

@@ -15,11 +15,11 @@ namespace CombatTweaks
     {
         public const string PluginGUID = "com.paddy." + PluginName;
         public const string PluginName = "CombatTweaks";
-        public const string PluginVersion = "1.0.1";
+        public const string PluginVersion = "1.0.0";
 
         private void Awake()
         {
-            Hooks.Init();
+            CraftAll.Init();
         }
     }
 }

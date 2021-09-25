@@ -1,10 +1,11 @@
 {
   "name": "ItemDropDecayConfig",
   "description": "Allows the user to configure the decay timer on dropped items.",
-  "version_number": "1.0.1",
+  "version_number": "1.0.2",
   "website_url": "https://github.com/paddywaan/PaddysVHMods/",
   "dependencies": [
     "denikson-BepInExPack_Valheim-5.4.601",
-    "ValheimModding-HookGenPatcher-0.0.1"
+    "ValheimModding-HookGenPatcher-0.0.1",
+    "ValheimModding-Jotunn-2.3.0"
   ]
 }

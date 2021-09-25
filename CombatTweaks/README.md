@@ -1,4 +1,4 @@
-﻿# ModName
+﻿# CombatTweaks
 
 
 ## Installation (manual)
